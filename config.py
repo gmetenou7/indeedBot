@@ -1,26 +1,26 @@
 # bot settings you can change -- options listed to the right
-job_posting_age = '1'  # all, 1, 3, 7, 14 (these are days)
-job_posting_type = 'all'  # all, full-time, contract, part-time, internship, temporary
+job_posting_age = '14'  # all, 1, 3, 7, 14 (these are days)
+job_posting_type = 'alternance'  # all, full-time, contract, part-time, internship, temporary, Alternance
 job_posting_experience = 'all'  # all, entry, mid, senior
-job_posting_distance = '25'  # default 5, 10, 15, 25, 50, 100 (these are miles)
+job_posting_distance = '50'  # default 5, 10, 15, 25, 50, 100 (these are miles)
 
 # change these to your information
-account_email = ''  # your indeed email
-account_password = ''  # your indeed password
-job_titles = ['python developer',]  # separate job titles must be in quotations separated by a comma
-job_location = '30340'  # job zip
+account_email = 'gmetenou7@gmail.com'  # your indeed email
+account_password = 'Password@123.'  # your indeed password
+job_titles = ['développeur web alternance','Développeur web en alternance', 'alternance développeur web', 'Alternance développeur(se) web']  # separate job titles must be in quotations separated by a comma
+job_location = 'Île-de-France'  # job zip
 
 # apply personal answers
-apply_linkedin = 'www.linkedin.com'
-apply_personalwebsite = 'www.me.com'
+apply_linkedin = 'https://www.linkedin.com/in/gildas-metenou-056225176/'
+apply_personalwebsite = ' '
 apply_stateresident = 'yes'  # yes, no -- are you a state resident
 apply_sponsorship = 'no'  # yes, no -- will you need work sponsorship
 apply_relocate = 'yes'  # yes, no -- resident of ga or willing to relocate
 apply_workauthorized = 'yes'  # yes, no -- authorized to work in us
 apply_citizen = 'yes'  # yes, no -- us citizen
-apply_education = 'other'  # other, highschool, associate, bachelor, master, doctorate -- education level
-apply_leadershipdevelopment = '5'  # years
-apply_salary = '55k'
+apply_education = 'master'  # other, highschool, associate, bachelor, master, doctorate -- education level
+apply_leadershipdevelopment = '2'  # years
+apply_salary = ' '
 apply_gender = 'male' # male, female, decline
 apply_veteran = 'no' # yes, no, decline -- veteran status
 apply_disability = 'no' # yes, no, decline -- disability status
@@ -28,18 +28,18 @@ apply_disability = 'no' # yes, no, decline -- disability status
 # language experience years
 apply_java = '1'
 apply_aws = '0.5'
-apply_python = '1'
-apply_django = '1'
-apply_php = '5'
+apply_python = '0'
+apply_django = '0'
+apply_php = '4'
 apply_react = '0'
 apply_node = '0'
-apply_angular = '0'
-apply_javascript = '5'
-apply_orm = '0'
+apply_angular = '0.5'
+apply_javascript = '1'
+apply_orm = '2'
 apply_sdet = '0'
 apply_selenium = '0'
 apply_testautomation = '0'
-apply_webdevyears = '10'
+apply_webdevyears = '4'
 
 # don't change these - you break it you buy it
 base_url = 'https://indeed.com'

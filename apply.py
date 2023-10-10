@@ -55,7 +55,7 @@ def next_weekday(date):
 
 chrome_options = Options()
 chrome_options.add_argument("--disable-popup-blocking")
-driver = webdriver.Chrome('chromedriver.exe', options=chrome_options)
+driver = webdriver.Chrome('chromedriver', options=chrome_options)
 driver.get(login_url)
 
 WebDriverWait(driver, 2).until(EC.presence_of_element_located((By.ID, 'loginform')))
